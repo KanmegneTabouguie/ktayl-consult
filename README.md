@@ -109,43 +109,7 @@ About: Details skills and experience.
 Projects: Showcases past projects with images and descriptions.
 Testimonials: Displays client feedback.
 Contact: Allows users to send messages via the contact form.
-Project Structure
-Here's an overview of the project's directory structure:
 
-css
-Copy code
-professional-portfolio/
-├── public/
-│   ├── index.html
-│   └── favicon.ico
-├── src/
-│   ├── assets/
-│   │   ├── images/
-│   │   │   ├── project1.jpg
-│   │   │   ├── project1-detail.jpg
-│   │   │   ├── project2.jpg
-│   │   │   ├── project2-detail.jpg
-│   │   │   ├── project3.jpg
-│   │   │   └── project3-detail.jpg
-│   │   └── css/
-│   │       └── styles.css
-│   ├── components/
-│   │   ├── About.js
-│   │   ├── Contact.js
-│   │   ├── Footer.js
-│   │   ├── Header.js
-│   │   ├── Home.js
-│   │   ├── Projects.js
-│   │   └── Testimonials.js
-│   ├── data/
-│   │   └── projectsData.js
-│   ├── App.js
-│   ├── index.js
-│   └── DOCUMENTATION.md
-├── .gitignore
-├── package.json
-├── README.md
-└── LICENSE
 Contributing
 Contributions are welcome! To contribute:
 Feel free to reach out for collaboration or inquiries!
