@@ -80,7 +80,7 @@ Installation
 Clone the Repository:
 
 ```bash
-git clone https://github.com/yourusername/professional-portfolio.git
+git clone https://github.com/KanmegneTabouguie/professional-portfolio.git
 
 Navigate to the Project Directory:
 
