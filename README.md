@@ -74,30 +74,25 @@ Git: Download and install Git
 
 Verify installation:
 
-bash
-Copy code
+```bash
 git --version
 Installation
 Clone the Repository:
 
-bash
-Copy code
+```bash
 git clone https://github.com/yourusername/professional-portfolio.git
 
 Navigate to the Project Directory:
 
-bash
-Copy code
+```bash
 cd professional-portfolio
 Install Dependencies:
 
-bash
-Copy code
+```bash
 npm install
 Start the Development Server:
 
-bash
-Copy code
+```bash
 npm start
 This will run the app in development mode. Open http://localhost:3000 to view it in the browser.
 
