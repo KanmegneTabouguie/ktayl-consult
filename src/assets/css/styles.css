@@ -1,0 +1,306 @@
+/* src/assets/css/styles.css */
+
+/* 1. CSS Variables for Consistent Color Scheme */
+:root {
+    --primary-color: #1E3A8A; /* Indigo */
+    --secondary-color: #2B6CB0; /* Darker Indigo */
+    --accent-color: #007BFF; /* Bootstrap Blue */
+    --background-light: #F8F9FA; /* Light Gray */
+    --background-dark: #343A40; /* Dark Gray */
+    --text-color: #FFFFFF; /* White */
+}
+
+/* 2. Global Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Consistent font across the site */
+    background-color: var(--background-light);
+    color: #212529; /* Bootstrap's default text color */
+}
+
+/* 3. Hero Section */
+#home {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+    padding: 0 20px;
+}
+
+#home h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#home p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+#home .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#home .btn:hover {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+    #home h1 {
+        font-size: 2.5rem;
+    }
+    
+    #home p {
+        font-size: 1.25rem;
+    }
+}
+
+/* 4. Navbar */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.95); /* Slightly transparent white */
+    transition: background-color 0.3s ease;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: var(--primary-color) !important;
+}
+
+.navbar-nav .nav-link {
+    color: #212529 !important;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--primary-color) !important;
+}
+
+/* 5. Buttons */
+.btn-primary {
+    background-color: var(--accent-color);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker Bootstrap Blue */
+}
+
+/* 6. About Section */
+#about {
+    padding: 60px 0;
+    background-color: var(--background-light);
+}
+
+#about h2 {
+    margin-bottom: 40px;
+}
+
+#about .team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* 7. Services Section */
+#services {
+    padding: 60px 0;
+}
+
+#services h2 {
+    margin-bottom: 40px;
+}
+
+/* 8. Projects Section */
+#projects {
+    padding: 60px 0;
+    background-color: var(--background-light);
+}
+
+#projects h2 {
+    margin-bottom: 40px;
+}
+
+#projects .card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#projects .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* 9. Testimonials Section */
+#testimonials {
+    padding: 60px 0;
+}
+
+#testimonials h2 {
+    margin-bottom: 40px;
+}
+
+#testimonials .testimonial {
+    background-color: var(--text-color);
+    color: var(--background-light);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#testimonials .testimonial-quote {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #212529; /* Dark text for readability */
+    margin-bottom: 15px;
+}
+
+#testimonials .testimonial-author {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--primary-color); /* Consistent with primary color scheme */
+}
+
+/* Card Styling */
+#testimonials .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#testimonials .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+    #testimonials .testimonial-quote {
+        font-size: 1rem;
+    }
+    
+    #testimonials .testimonial-author {
+        font-size: 0.9rem;
+    }
+}
+
+/* 10. Contact Section */
+#contact {
+    padding: 60px 0;
+    background-color: var(--background-light);
+}
+
+#contact h2 {
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+#contact .form-control {
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+#contact .form-label {
+    font-weight: bold;
+    color: #212529;
+}
+
+#contact .btn-primary {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+#contact .btn-primary:hover {
+    background-color: var(--secondary-color);
+}
+
+#contact .social-icons a {
+    color: var(--primary-color);
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+#contact .social-icons a:hover {
+    color: var(--secondary-color);
+}
+
+#contact .contact-info {
+    margin-bottom: 20px;
+}
+
+#contact .contact-info i {
+    margin-right: 10px;
+    color: var(--primary-color);
+}
+
+#contact .alert {
+    border-radius: 0.5rem;
+}
+
+/* Card Hover Effect */
+#contact .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    #contact h2 {
+        font-size: 2rem;
+    }
+
+    #contact .form-control {
+        font-size: 0.9rem;
+    }
+
+    #contact .btn-primary {
+        width: 100%;
+    }
+}
+
+
+
+/* 11. Footer */
+footer {
+    background-color: var(--background-dark);
+    color: var(--text-color);
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* 12. Utility Classes */
+.no-select {
+    user-select: none;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10+/Edge */
+}
+
+/* 13. Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#home {
+    animation: fadeIn 2s ease-in;
+}
