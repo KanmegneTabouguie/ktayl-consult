@@ -6,8 +6,8 @@ const Home = () => {
   return (
     <section id="home" className="d-flex align-items-center">
       <div className="container text-center">
-        <h1 className="display-4">Transforming Your Digital Presence</h1>
-        <p className="lead">End-to-end solutions in Web & Mobile Development, AI, DevOps, and more.</p>
+        <h1>Transforming Your Digital Presence</h1>
+        <p>End-to-end solutions in Web & Mobile Development, AI, DevOps, and more.</p>
         <Link 
           to="services" 
           smooth={true} 

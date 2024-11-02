@@ -1,7 +1,7 @@
 // src/components/Contact.js
 import React, { useState } from 'react';
 import { Button, Spinner, Alert, Form, Row, Col, Card } from 'react-bootstrap';
-import { FaEnvelope, FaPhone, FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaEnvelope, FaLinkedin, FaGithub, FaYoutube, FaInstagram, FaTiktok } from 'react-icons/fa';
 
 const Contact = () => {
   // Form state
@@ -26,7 +26,7 @@ const Contact = () => {
 
   // Function to assemble the email address
   const getEmail = () => {
-    const user = "kanmegnea";
+    const user = "ktaylconsult";
     const domain = "gmail";
     const tld = "com";
     return `${user}@${domain}.${tld}`;
@@ -85,24 +85,17 @@ const Contact = () => {
                     {getEmail()}
                   </a>
                 </div>
+                {/* 
                 <div className="mb-3 d-flex align-items-center">
                   <FaPhone size={20} className="me-3 text-primary" />
                   <a href="tel:+12345678901" className="text-decoration-none text-dark">
                     +1 (234) 567-8901
                   </a>
-                </div>
+                </div> 
+                */}
                 <div className="mt-4">
                   <h6 className="mb-2">Follow Us</h6>
                   <div className="d-flex">
-                    <a 
-                      href="https://twitter.com/yourusername" 
-                      target="_blank" 
-                      rel="noopener noreferrer" 
-                      aria-label="Twitter"
-                      className="text-primary me-3"
-                    >
-                      <FaTwitter size={24} />
-                    </a>
                     <a 
                       href="https://linkedin.com/in/yourusername" 
                       target="_blank" 
@@ -117,9 +110,36 @@ const Contact = () => {
                       target="_blank" 
                       rel="noopener noreferrer" 
                       aria-label="GitHub"
-                      className="text-primary"
+                      className="text-primary me-3"
                     >
                       <FaGithub size={24} />
+                    </a>
+                    <a 
+                      href="https://youtube.com/yourusername" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      aria-label="YouTube"
+                      className="text-primary me-3"
+                    >
+                      <FaYoutube size={24} />
+                    </a>
+                    <a 
+                      href="https://instagram.com/yourusername" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      aria-label="Instagram"
+                      className="text-primary me-3"
+                    >
+                      <FaInstagram size={24} />
+                    </a>
+                    <a 
+                      href="https://tiktok.com/@yourusername" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      aria-label="TikTok"
+                      className="text-primary"
+                    >
+                      <FaTiktok size={24} />
                     </a>
                   </div>
                 </div>
