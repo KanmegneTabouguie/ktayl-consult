@@ -97,7 +97,7 @@ const Contact = () => {
                   <h6 className="mb-2">Follow Us</h6>
                   <div className="d-flex">
                     <a 
-                      href="https://linkedin.com/in/yourusername" 
+                    //  href="https://linkedin.com/in/yourusername" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       aria-label="LinkedIn"
@@ -106,7 +106,7 @@ const Contact = () => {
                       <FaLinkedin size={24} />
                     </a>
                     <a 
-                      href="https://github.com/yourusername" 
+                      //href="https://github.com/yourusername" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       aria-label="GitHub"
@@ -115,7 +115,7 @@ const Contact = () => {
                       <FaGithub size={24} />
                     </a>
                     <a 
-                      href="https://youtube.com/yourusername" 
+                      //href="https://youtube.com/yourusername" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       aria-label="YouTube"
@@ -124,7 +124,7 @@ const Contact = () => {
                       <FaYoutube size={24} />
                     </a>
                     <a 
-                      href="https://instagram.com/yourusername" 
+                      href="https://www.instagram.com/consultktayl/" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       aria-label="Instagram"
@@ -133,7 +133,7 @@ const Contact = () => {
                       <FaInstagram size={24} />
                     </a>
                     <a 
-                      href="https://tiktok.com/@yourusername" 
+                    //  href="https://tiktok.com/@yourusername" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       aria-label="TikTok"
