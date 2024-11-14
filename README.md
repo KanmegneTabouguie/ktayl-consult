@@ -21,9 +21,7 @@
 ![Portfolio Screenshot](./src/assets/images/portfolio-screenshot.png)
 
 ## Live Demo
-
-[View Live Demo Here](https://your-live-demo-link.com)
-
+(https://kanmegnetabouguie.github.io/ktayl-consult/)
 
 ## Features
 
